@@ -1,0 +1,11 @@
+langchain
+chromadb
+sentence-transformers
+pymupdf
+langchain-community
+ollama
+pypdf
+numpy
+
+
+
