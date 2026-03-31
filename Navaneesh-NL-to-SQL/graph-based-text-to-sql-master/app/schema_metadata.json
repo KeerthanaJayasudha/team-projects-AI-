@@ -1,0 +1,56 @@
+{
+  "customers": {
+    "description": "Stores customer personal and contact details. Use for queries about customer names, emails, countries, or customer-level aggregations.",
+    "columns": {
+      "customer_id": "Unique identifier for customer (INTEGER PRIMARY KEY)",
+      "name": "Customer full name (TEXT)",
+      "email": "Customer email address (TEXT)",
+      "country": "Customer country of residence (TEXT)"
+    }
+  },
+  "products": {
+    "description": "Stores product catalog information including pricing and category. Use for queries about product names, prices, categories, or product-level aggregations.",
+    "columns": {
+      "product_id": "Unique identifier for product (INTEGER PRIMARY KEY)",
+      "name": "Product name (TEXT)",
+      "category_id": "Foreign key to categories table (INTEGER)",
+      "price": "Product price in USD (REAL/DECIMAL)"
+    },
+    "relationships": {
+      "category_id": "References categories(category_id)"
+    }
+  },
+  "orders": {
+    "description": "Contains purchase transactions linking customers to products. Use for queries about orders, purchases, quantities, order dates, sales totals, or monthly/yearly trends.",
+    "columns": {
+      "order_id": "Unique order identifier (INTEGER PRIMARY KEY)",
+      "customer_id": "Foreign key to customers table (INTEGER)",
+      "product_id": "Foreign key to products table (INTEGER)",
+      "employee_id": "Foreign key to employees table — sales rep who handled the order (INTEGER)",
+      "quantity": "Number of items ordered (INTEGER)",
+      "order_date": "Date of purchase in YYYY-MM-DD format (TEXT)"
+    },
+    "relationships": {
+      "customer_id": "References customers(customer_id)",
+      "product_id": "References products(product_id)",
+      "employee_id": "References employees(employee_id)"
+    }
+  },
+  "employees": {
+    "description": "Stores sales employee information. Use for queries about sales reps, employee performance, who handled which orders, or department-level analysis.",
+    "columns": {
+      "employee_id": "Unique identifier for employee (INTEGER PRIMARY KEY)",
+      "name": "Employee full name (TEXT)",
+      "department": "Department name such as Sales, Support, Logistics (TEXT)",
+      "hire_date": "Date the employee was hired in YYYY-MM-DD format (TEXT)"
+    }
+  },
+  "categories": {
+    "description": "Stores product category definitions. Use for queries about product categories, category names, or grouping products by category. Always join with products and orders when computing sales, revenue, or quantity sold per category.",
+    "columns": {
+      "category_id": "Unique identifier for category (INTEGER PRIMARY KEY)",
+      "category_name": "Name of the product category such as Electronics, Accessories, Furniture (TEXT)",
+      "description": "Short description of the category (TEXT)"
+    }
+  }
+}

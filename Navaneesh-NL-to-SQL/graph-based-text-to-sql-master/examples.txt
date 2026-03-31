@@ -1,0 +1,5 @@
+1. Show top 5 customers by revenue
+2. Total revenue by month
+3. Customers with no orders
+4. Average order value
+5. Top products by sales
