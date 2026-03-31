@@ -1,0 +1,153 @@
+Example 1
+Question
+
+What is the purpose of the Acceptable Use Policy?
+
+Expected Answer (Exact sentence from document)
+
+“The purpose of Illinois Tech’s Acceptable Use Policy is to outline the requirements for the authorized usage of any Illinois Tech technology and digital resources.” 
+
+Acceptable-Use-Policy
+
+Source
+
+Acceptable-Use-Policy.pdf
+
+Expected Output Format
+{
+ "answer": "The purpose of Illinois Tech’s Acceptable Use Policy is to outline the requirements for the authorized usage of any Illinois Tech technology and digital resources.",
+ "source": {"page": 3, "source": "Acceptable-Use-Policy.pdf"},
+ "confidence": 0.83
+}
+Example 2
+Question
+
+Who is responsible for maintaining password privacy?
+
+Expected Answer
+
+“Authorized Illinois Tech users are responsible for maintaining privacy of passwords and maintaining proper identification of their email by properly identifying sender.” 
+
+Acceptable-Use-Policy
+
+Source
+
+Acceptable-Use-Policy.pdf
+
+Expected Output
+{
+ "answer": "Authorized Illinois Tech users are responsible for maintaining privacy of passwords and maintaining proper identification of their email by properly identifying sender.",
+ "source": {"page": 5, "source": "Acceptable-Use-Policy.pdf"},
+ "confidence": 0.83
+}
+Example 3
+Question
+
+Can university IT resources be used for illegal activities?
+
+Expected Answer
+
+“The College’s IT Resources may be used for legitimate SUNY Optometry purposes only.” 
+
+SUNYOPT_IT_Acceptable_Use_Policy
+
+Source
+
+SUNYOPT_IT_Acceptable_Use_Policy.pdf
+
+Expected Output
+{
+ "answer": "The College’s IT Resources may be used for legitimate SUNY Optometry purposes only.",
+ "source": {"page": 2, "source": "SUNYOPT_IT_Acceptable_Use_Policy.pdf"},
+ "confidence": 0.82
+}
+Example 4
+Question
+
+What must users do if their university account is compromised?
+
+Expected Answer
+
+“If an account has been compromised, users must follow the instructions provided by the University’s Information Security Office or Technology Assistance Center.” 
+
+acceptable-use-university-compu…
+
+Source
+
+acceptable-use-university-computers.pdf
+
+Expected Output
+{
+ "answer": "If an account has been compromised, users must follow the instructions provided by the University’s Information Security Office or Technology Assistance Center.",
+ "source": {"page": 1, "source": "acceptable-use-university-computers.pdf"},
+ "confidence": 0.80
+}
+Example 5
+Question
+
+What activities are prohibited when using university IT resources?
+
+Expected Answer
+
+“Authorized Users are not permitted to engage in any activity that is illegal under local, state, federal, or international law while utilizing IT Resources.” 
+
+SUNYOPT_IT_Acceptable_Use_Policy
+
+Source
+
+SUNYOPT_IT_Acceptable_Use_Policy.pdf
+
+Example 6
+Question
+
+What happens if users violate the Acceptable Use Policy?
+
+Expected Answer
+
+“Violations of policies will result in disciplinary action in accordance with the Acceptable Use Policy and as determined by organizational leadership.” 
+
+Acceptable-Use-Policy
+
+Example 7
+Question
+
+Can users share their passwords with others?
+
+Expected Answer
+
+“To either share passwords or enable any unauthorized access to Technology Resources is a direct violation and may result in sanctions.” 
+
+Acceptable-Use-Policy
+
+Example 8
+Question
+
+Are users allowed to use unauthorized software on university systems?
+
+Expected Answer
+
+“Software not used explicitly for academic instruction, or otherwise needed to complete assigned job responsibilities, must not be installed by users on University-owned equipment or systems.” 
+
+acceptable-use-university-compu…
+
+Example 9
+Question
+
+What responsibility do stakeholders have regarding passwords?
+
+Expected Answer
+
+“Stakeholders shall protect their computer resources such as passwords from unauthorized use.” 
+
+aup
+
+Example 10
+Question
+
+Can university systems be monitored?
+
+Expected Answer
+
+“All activity on systems and networks may be monitored, logged, and reviewed by system administrators.” 
+
+aup
