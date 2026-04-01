@@ -1,0 +1,12 @@
+venv/
+venv311/
+__pycache__/
+*.pyc
+.env
+hf_cache/
+storage/chromadb/
+storage/logs/
+*.log
+.vscode/
+metadata.db
+storage/
