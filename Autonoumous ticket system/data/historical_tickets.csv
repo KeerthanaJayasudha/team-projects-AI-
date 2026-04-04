@@ -1,0 +1,51 @@
+ticket_id,title,description,category,priority,resolution,escalated,time_to_resolve_hours,user_role
+1,Email not syncing,Outlook not syncing with exchange server,Email Issue,P3,Restart Outlook and reconfigure account,False,3,Employee
+2,VPN not connecting,Unable to connect to VPN from home network,Network Issue,P2,Reset VPN profile and restart router,False,4,Employee
+3,Production server down,Main production server not responding for all users,System Outage,P1,Restarted server and cleared memory leak,True,2,Manager
+4,Slow internet speed,Internet extremely slow in branch office,Network Issue,P3,Reconfigured bandwidth allocation,False,5,Employee
+5,Database connection error,Application failing due to DB timeout error,Database Issue,P2,Increased connection pool size,False,4,Developer
+6,Payroll system crash,Payroll application crashed before salary processing,System Outage,P1,Patched application and restarted services,True,3,Finance Head
+7,Unable to print documents,Printer not detected on network,Hardware Issue,P4,Reinstalled printer drivers,False,6,Employee
+8,Website 500 error,Company website showing 500 internal server error,System Outage,P1,Fixed deployment config and restarted service,True,2,Marketing Head
+9,Password reset issue,User unable to reset password using portal,Access Issue,P3,Manually reset password and cleared cache,False,2,Employee
+10,Firewall blocking traffic,External API calls blocked by firewall rules,Security Issue,P2,Updated firewall whitelist rules,False,5,Developer
+11,Data breach suspicion,Suspicious data download detected from admin account,Security Issue,P1,Disabled account and initiated audit,True,1,Security Officer
+12,Application crash on login,App crashes when user logs in,Application Bug,P2,Fixed null pointer exception in backend,False,6,Developer
+13,All branch connectivity lost,All regional branches disconnected from HQ,Network Issue,P1,Reconfigured MPLS routing,True,3,Network Admin
+14,HR portal slow,HR portal loading very slowly for multiple users,Application Performance,P3,Optimized database query,False,5,HR Manager
+15,CEO laptop not booting,Executive laptop stuck at boot screen,Hardware Issue,P1,Replaced faulty SSD,True,2,CEO
+16,Email phishing report,User reported phishing email received,Security Issue,P2,Blocked sender and updated filters,False,4,Employee
+17,CRM access denied,Sales team unable to access CRM dashboard,Access Issue,P2,Updated access roles in IAM,False,3,Sales Head
+18,Data sync failed,Data replication between servers failed,System Issue,P2,Restarted replication service,False,4,IT Admin
+19,Cloud storage full,Shared cloud storage quota exceeded,Storage Issue,P3,Increased storage allocation,False,2,Employee
+20,Production API latency,High latency in production API responses,Performance Issue,P1,Scaled Kubernetes pods,True,3,CTO
+21,Router overheating,Core router overheating causing instability,Network Issue,P2,Replaced cooling unit,False,6,Network Admin
+22,Unauthorized login attempt,Multiple failed login attempts detected,Security Issue,P2,Enabled MFA and locked account,False,2,Employee
+23,Backup failure,Nightly backup job failed,System Issue,P2,Reconfigured backup scheduler,False,4,IT Admin
+24,Director email hacked,Director account compromised and spam sent,Security Issue,P1,Disabled account and reset credentials,True,2,Director
+25,Inventory system glitch,Inventory count mismatch in system,Application Bug,P3,Patched calculation logic,False,5,Operations Manager
+26,Branch server disk full,Local branch application server showing disk space 100% used,System Issue,P2,Cleared old logs and expanded disk volume,False,4,IT Admin
+27,Finance report generation failed,Quarterly finance report not generating in ERP system,Application Bug,P2,Patched report module and restarted service,False,5,Finance Manager
+28,Multiple users cannot access intranet,Intranet portal inaccessible for entire department,Network Issue,P2,Restarted internal web server,False,3,HR Manager
+29,Production database high CPU,Production DB CPU usage above 95% for 30 minutes,Database Issue,P1,Optimized long running queries and scaled DB instance,True,2,CTO
+30,Employee mailbox storage exceeded,User mailbox exceeded quota limit,Email Issue,P4,Increased mailbox quota,False,2,Employee
+31,Security audit log missing,System audit logs not generated for last 24 hours,Security Issue,P1,Re-enabled logging service and verified integrity,True,2,Security Officer
+32,Mobile app crashing after update,Users reporting crash after latest mobile release,Application Bug,P2,Rolled back deployment to previous stable version,False,6,Product Manager
+33,Unauthorized admin access detected,Unknown IP accessed admin dashboard,Security Issue,P1,Blocked IP and reset admin credentials,True,1,Security Officer
+34,Printer printing blank pages,Network printer printing blank sheets,Hardware Issue,P4,Replaced toner cartridge,False,3,Employee
+35,Video conferencing not working,Teams calls dropping frequently during meetings,Network Issue,P3,Updated network drivers and reset adapter,False,4,Employee
+36,Data warehouse sync delayed,ETL jobs delayed causing stale dashboard data,Performance Issue,P2,Restarted ETL scheduler and optimized job sequence,False,5,Data Analyst
+37,Cloud instance terminated unexpectedly,Production cloud VM stopped without warning,System Outage,P1,Restored instance from backup and analyzed logs,True,3,Cloud Admin
+38,Customer portal login failure,External customers unable to log into portal,Access Issue,P1,Fixed authentication service configuration,True,2,Support Head
+39,VPN latency high,Remote employees experiencing VPN lag,Network Issue,P3,Upgraded VPN bandwidth allocation,False,5,Employee
+40,Antivirus service disabled,Endpoint antivirus stopped running on multiple devices,Security Issue,P2,Reinstalled antivirus and updated signatures,False,4,IT Admin
+41,Core switch failure,Primary core switch stopped responding,System Outage,P1,Replaced faulty switch hardware,True,2,Network Admin
+42,Time tracking system error,Employees unable to submit timesheets,Application Bug,P3,Restarted application service and cleared cache,False,4,Employee
+43,Director unable to access email,Director account locked after suspicious activity,Access Issue,P1,Unlocked account and enforced MFA reset,True,2,Director
+44,Backup storage corrupted,Backup files corrupted after nightly job,System Issue,P1,Restored from secondary backup and reconfigured storage,True,3,IT Admin
+45,Internal chat application down,Company chat server offline for all users,System Outage,P1,Restarted messaging service cluster,True,2,Operations Manager
+46,Application response delay for single user,One user reporting slow dashboard load,Performance Issue,P4,Cleared browser cache and optimized query,False,3,Employee
+47,API authentication token expired,Third-party integration failing due to expired token,Application Issue,P2,Regenerated API token and updated config,False,2,Developer
+48,Firewall firmware outdated,Firewall running outdated firmware version,Security Issue,P3,Updated firmware to latest secure version,False,6,Network Admin
+49,CTO laptop encryption failure,Disk encryption failed after OS update,Security Issue,P1,Reinstalled encryption module and verified keys,True,3,CTO
+50,Inventory database mismatch,Stock levels not matching warehouse count,Database Issue,P2,Rebuilt index and synchronized records,False,5,Operations Manager
