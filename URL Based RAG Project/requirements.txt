@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+lxml
+readability-lxml
+chromadb
+sentence-transformers
+python-dotenv
+tiktoken
+langchain
+streamlit
+apscheduler
+sqlalchemy
+numpy
+scikit-learn

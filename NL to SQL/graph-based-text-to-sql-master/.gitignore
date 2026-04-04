@@ -1,0 +1,14 @@
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.env
+*.log
+*.db
+*.sqlite3
+.next/
+coverage/
+.idea/
+.vscode/

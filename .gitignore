@@ -140,3 +140,15 @@ Thumbs.db
 embeddings/
 *.bin
 data/*.csv  # Uncomment if data should not be committed
+
+# Additional from repo
+venv/
+venv311/
+hf_cache/
+storage/chromadb/
+storage/logs/
+*.log
+.vscode/
+metadata.db
+storage/
+>>>>>>> origin/main
