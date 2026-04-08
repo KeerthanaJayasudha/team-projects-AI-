@@ -1,9 +1,0 @@
-streamlit
-pandas
-matplotlib
-plotly
-sqlalchemy
-pymysql
-psycopg2-binary
-pyodbc
-openpyxl
